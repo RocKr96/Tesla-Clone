@@ -10,7 +10,7 @@ function Header() {
     const cars = useSelector(selectCars);
     return (
         <Container>
-            <a>
+            <a href="/">
                 <img src="/images/logo.svg" alt="" />
             </a>
             <Menu>
